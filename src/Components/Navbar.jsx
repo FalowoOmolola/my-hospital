@@ -6,7 +6,7 @@ const Navigation = () => {
 
   return (
     <nav className="bg-white shadow-sm w-full top-0 z-50">
-      <div className="max-w-7xl mx-auto sm:px-6 lg:px-0">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-0">
         <div className="flex justify-between h-16">
           <a href="#home" className="flex items-center">
             <span className="text-xl text-gray-900"> 
