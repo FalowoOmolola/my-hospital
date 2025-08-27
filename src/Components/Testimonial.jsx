@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaUser } from 'react-icons/fa6'
-import aboutImg from '../assets/aboutImg.png'
 import { MdOutlineStar } from 'react-icons/md'
 
 export default function Testimonial() {
@@ -38,8 +37,8 @@ export default function Testimonial() {
 
                 <div className="flex-1 flex justify-center">
                     <img
-                        src={aboutImg}
-                        alt="Hero"
+                        src="/aboutImg.png"
+                        alt="about"
                         className="w-full max-w-xs md:max-w-sm lg:max-w-lg object-contain"
                     />
                 </div>

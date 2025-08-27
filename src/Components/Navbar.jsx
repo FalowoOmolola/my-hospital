@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { IoEyeOutline } from 'react-icons/io5';
 import { HiMenu, HiX } from 'react-icons/hi';
 
 const Navigation = () => {

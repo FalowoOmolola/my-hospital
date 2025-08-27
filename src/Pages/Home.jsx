@@ -5,7 +5,6 @@ import HowItWorks from "../Components/HowItWorks";
 import AboutUs from "../Components/AboutUs";
 import OurMoto from "../Components/OurMoto";
 import Testimonial from "../Components/Testimonial";
-import Footer from "../Components/Footer";
 
 const Home = () => {
   const [showPosts, setShowPosts] = useState(false);
@@ -36,7 +35,7 @@ const Home = () => {
       <section id="services">
         <HowItWorks />
       </section>
-      
+
       <section id="about">
         <AboutUs />
       </section>

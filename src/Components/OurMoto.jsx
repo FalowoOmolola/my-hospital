@@ -1,5 +1,5 @@
 import React from "react";
-import motoImg from "../assets/motoImg.jpg"
+import motoImg from "/public/motoImg.jpg"
 
 export default function OurMoto() {
   return (

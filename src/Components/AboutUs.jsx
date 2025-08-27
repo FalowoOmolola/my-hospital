@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutImg from '../assets/aboutImg.png';
 
 export default function AboutUs() {
     return (
@@ -17,8 +16,8 @@ export default function AboutUs() {
                         style={{ border: "3px solid #e0e4e7" }}
                     >
                         <img
-                            src={aboutImg}
-                            alt="About Us"
+                            src="/aboutImg.png"
+                            alt="About"
                             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
                         />
                     </div>
