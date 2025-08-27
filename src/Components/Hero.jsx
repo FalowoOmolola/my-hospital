@@ -1,5 +1,5 @@
 import React from 'react';
-import heroimg from '../assets/heroimg.png';
+import heroImg from '../assets/heroImg.png';
 
 export default function Hero() {
     return (
@@ -30,7 +30,7 @@ export default function Hero() {
 
             <div className="w-full sm:w-1/2 flex justify-center">
                 <img
-                    src={heroimg}
+                    src={heroImg}
                     alt="Hero"
                     className="w-[70%] sm:w-[80%] lg:w-full max-w-[200px] sm:max-w-[300px] lg:max-w-[480px] xl:max-w-[550px] object-contain"
                 />
